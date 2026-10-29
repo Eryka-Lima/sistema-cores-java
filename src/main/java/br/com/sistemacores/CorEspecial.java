@@ -9,7 +9,6 @@ public class CorEspecial extends Cor {
     public CorEspecial(String nome, String familia,
                        String codigoHex, boolean metalica,
                        String acabamento) {
-
         super(nome, familia, codigoHex, "ESPECIAL");
         this.metalica = metalica;
         this.acabamento = acabamento;
@@ -18,7 +17,6 @@ public class CorEspecial extends Cor {
     public CorEspecial(int id, String nome, String familia,
                        String codigoHex, boolean metalica,
                        String acabamento) {
-
         super(id, nome, familia, codigoHex, "ESPECIAL");
         this.metalica = metalica;
         this.acabamento = acabamento;
